@@ -1,8 +1,19 @@
 #headMain{
     font-size: 40px;
     align-items: center;
+    
 }
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
 
 body{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-image: url("../images/tgbackground.jpg"); */
     background-color: brown;
 }
