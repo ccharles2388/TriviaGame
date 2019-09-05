@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
 
     <div id="timer">
         <p>Time Remaining :</p>
-        
+
 
     </div>
     <div id="timeleft">
@@ -30,9 +31,11 @@
         <p id="q1Text">
             Snails Have 14,000 Teeth And Some Can Kill You !
         </p>
-        <p id="q1Answer"></p>
-        <input type="checkbox" name="q1t" value="True"> True
-        <input type="checkbox" name="q1f" value="False"> False
+        <p id="q1Answer">
+            <input id="q1True" type="radio" name="q1" value="True"> True
+            <input id="q1False" type="radio" name="q1" value="False"> False
+        </p>
+
     </div>
     <br>
 
@@ -40,9 +43,11 @@
         <p id="q2Text">
             Pluto Is A Planet In Our Solar System !
         </p>
-        <p id="q2Answer"></p>
-        <input type="checkbox" name="q2t" value="True"> True
-        <input type="checkbox" name="q2f" value="False"> False
+        <p id="q2Answer">
+            <input type="radio" name="q2" value="True"> True
+            <input type="radio" name="q2" value="False"> False
+        </p>
+
     </div>
     <br>
 
@@ -50,9 +55,13 @@
         <p id="q3Text">
             Bullfrogs Do Not Sleep !
         </p>
-        <p id="q3Answer"></p>
-        <input type="checkbox" name="q3t" value="True"> True
-        <input type="checkbox" name="q3f" value="False"> False
+        <p id="q3Answer">
+            <input type="radio" name="q3" value="True"> True
+            <input type="radio" name="q3" value="False"> False
+        </p>
+
+        <button id="submit">Submit Before Time Expires</button>
+
     </div>
     <br>
 
@@ -68,6 +77,7 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/app.js">
     </script>
-    
+
 </body>
+
 </html>
