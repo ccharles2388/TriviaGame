@@ -45,7 +45,7 @@
         </p>
         <p id="q2Answer">
             <input type="radio" name="q2" value="True"> True
-            <input type="radio" name="q2" value="False"> False
+            <input type="radio" name="q2" value="False" id="q2CorrectAnswer"> False
         </p>
 
     </div>
@@ -56,7 +56,7 @@
             Bullfrogs Do Not Sleep !
         </p>
         <p id="q3Answer">
-            <input type="radio" name="q3" value="True"> True
+            <input type="radio" name="q3" value="True" id="q3CorrectAnswer"> True
             <input type="radio" name="q3" value="False"> False
         </p>
 
@@ -64,6 +64,12 @@
 
     </div>
     <br>
+    <div id="sumScore">
+        <p>Correct Answers:<span id="correct"></span></p>
+        <br>
+        <p>Incorrect Answers :<span id="incorrect"></span></p>
+
+    </div>
 
     <!-- Added Jquery and Javascript Source And Type -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
