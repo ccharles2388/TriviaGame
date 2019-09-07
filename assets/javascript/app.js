@@ -6,7 +6,7 @@ var q2answer = "False"
 var q3answer = "True"
 
 // Counter Decreases By 1 Second
-var timeLeft = 30;
+var timeLeft = 20;
 var elem = document.getElementById('timeleft');
 
 var timerId = setInterval(countdown, 1000);
