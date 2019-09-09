@@ -1,8 +1,25 @@
 #headMain{
     
+    font-size: 60px;
+    align-items: center;
+    font: bold;
+    font-family: cursive;
+    
+}
+
+#timer{
+    font-size: 30px;
+    align-items: center;
+    color: crimson;
+    font: bold;
+    font-family: cursive;
+}
+
+#timeleft{
     font-size: 40px;
     align-items: center;
-    
+    font: bold;
+    font-family: cursive;
 }
 
 
@@ -14,6 +31,10 @@
     background-size: cover;
   }
 body{
+    font: bold;
+    color: brown;
+    font-size: 15px;
+    font-family: cursive;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
